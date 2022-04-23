@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"../../css/custom.scss",
+		"../../css/colors.scss",
+		"../../css/fonts.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors.scss\";\r\n@import \"fonts.scss\";\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  color: $n-light-1;\r\n}\r\n\r\nh1 {\r\n  font: 900 3rem/120% $font-family-base, sans-serif;\r\n}\r\n\r\n.brand-text {\r\n  font: 700 1.2rem/120% $font-family-base, sans-serif;\r\n  color: $n-light-1;\r\n  margin-left: .5rem;\r\n}\r\n\r\n.subheading {\r\n  font: 500 3.5rem/130% $font-family-base, sans-serif;\r\n}",
+		"// NickBravo.dev color scheme\r\n$n-dark-1: #343e3d !default;\r\n$n-dark-2: #607466 !default;\r\n$n-light-1: #dde0bd !default;\r\n$n-light-2: #d0d1ac !default;",
+		"$font-family-base: 'Proxima Nova' !default;"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACD,KAAK,ECNK,OAAO;CDOlB;;;AAED,AAAA,EAAE,CAAC;EACD,IAAI,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CEbF,cAAc,EFaQ,UAAU;CAClD;;;AAED,AAAA,WAAW,CAAC;EACV,IAAI,EAAE,GAAG,CAAC,MAAM,CAAC,IAAI,CEjBJ,cAAc,EFiBU,UAAU;EACnD,KAAK,ECfK,OAAO;EDgBjB,WAAW,EAAE,KAAK;CACnB;;;AAED,AAAA,WAAW,CAAC;EACV,IAAI,EAAE,GAAG,CAAC,MAAM,CAAC,IAAI,CEvBJ,cAAc,EFuBU,UAAU;CACpD"
+}

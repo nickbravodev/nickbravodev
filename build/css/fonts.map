@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../../css/fonts.scss"
+	],
+	"sourcesContent": [
+		"$font-family-base: 'Proxima Nova' !default;"
+	],
+	"names": [],
+	"mappings": ""
+}
