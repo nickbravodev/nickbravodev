@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $n-light-1;
+}
+
+h1 {
+  font: 900 3rem/120% $font-family-base, sans-serif;
+}
+
+.brand-text {
+  font: 700 1.2rem/120% $font-family-base, sans-serif;
+  color: $n-light-1;
+  margin-left: .5rem;
+}
+
+.subheading {
+  font: 500 1.5rem/130% $font-family-base, sans-serif;
+}
