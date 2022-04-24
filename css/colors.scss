@@ -3,3 +3,25 @@ $n-dark-1: #343e3d !default;
 $n-dark-2: #607466 !default;
 $n-light-1: #dde0bd !default;
 $n-light-2: #d0d1ac !default;
+
+// scss-docs-start theme-color-variables
+// $primary: $blue !default;
+// $secondary: $gray-600 !default;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+$light: $n-light-1 !default;
+$dark: $n-dark-1 !default;
+$light-2: $n-light-2 !default;
+$dark-2: $n-dark-2 !default;
+// scss-docs-end theme-color-variables
+
+// Body background color
+$body-bg: $n-dark-1;
+// Body text color
+$body-color: $n-light-2;
+// Navbar background color
+$bg-dark-n: $n-dark-1;
+// Lighter text color
+$text-color-n: $n-light-1;

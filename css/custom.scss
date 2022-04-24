@@ -11,12 +11,87 @@ h1 {
   font: 900 3rem/120% $font-family-base, sans-serif;
 }
 
+h2 {
+  font: 900 2rem/120% $font-family-base, sans-serif;
+}
+
+hr {
+  border: 2px solid $n-light-2;
+  width: 6rem;
+}
+
 .brand-text {
   font: 700 1.2rem/120% $font-family-base, sans-serif;
   color: $n-light-1;
   margin-left: .5rem;
 }
 
+.brand-img {
+  height: 3.5rem;
+  width: auto;
+}
+
+.superheading {
+  font: 700 2rem/130% $font-family-base, sans-serif;
+  color: $n-light-1;
+}
+
 .subheading {
-  font: 500 3.5rem/130% $font-family-base, sans-serif;
+  font: 500 1.5rem/130% $font-family-base, sans-serif;
+}
+
+.cta {
+  display: inline-block;
+  font: 500 1rem/120% $font-family-base, sans-serif;
+  // font-family: $btn-font-family;
+  // font-weight: 500;
+  // line-height: $btn-line-height;
+  color: $n-light-1;
+  text-align: center;
+  text-decoration: if($link-decoration==none, null, none);
+  white-space: $btn-white-space;
+  vertical-align: middle;
+  cursor: if($enable-button-pointers, pointer, null);
+  user-select: none;
+  background-color: transparent;
+  border: 2px solid $n-light-1;
+  border-radius: 7px;
+  padding: .5rem 2rem;
+  // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+  @include transition($btn-transition);
+
+  &:hover {
+    color: $n-dark-1;
+    background-color: $n-light-2;
+    text-decoration: if($link-hover-decoration==underline, none, null);
+  }
+
+  .cta-check:focus + &,
+  &:focus {
+    outline: 0;
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  .cta-check:checked + &,
+  .cta-check:active + &,
+  &:active,
+  &.active {
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    pointer-events: none;
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+}
+
+.copyright {
+  font: 400 .8rem/120% $font-family-base, sans-serif;
 }

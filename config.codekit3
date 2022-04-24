@@ -50,6 +50,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/css\/buttons.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/colors.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/colors.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/css\/custom.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -60,6 +90,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/css\/custom.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/fonts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/navbar.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/navbar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -93,6 +153,17 @@
       "oA" : 0,
       "oAP" : "\/build\/index.html",
       "oF" : 0
+    },
+    "\/js\/bootstrap.bundle.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/bootstrap.bundle-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/node_modules\/.package-lock.json" : {
       "ft" : 524288,
@@ -5514,7 +5585,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672416650.08770597
+    "lastBuiltDate" : 672451876.22879803
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -5808,14 +5879,14 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
+    "buildEnvironment" : 0,
     "buildFolderActive" : 1,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

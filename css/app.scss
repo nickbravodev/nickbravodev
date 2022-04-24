@@ -2,41 +2,10 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import url("https://use.typekit.net/ybn6dil.css");
 
-// Colors
-
-// $n-dark-1: #343e3d !default;
-// $n-dark-2: #607466 !default;
-// $n-light-1: #dde0bd !default;
-// $n-light-2: #d0d1ac !default;
-
 // 2. Include any default variable overrides here:
 @import "colors.scss";
 @import "fonts.scss";
-$body-bg: $n-dark-1;
-$body-color: $n-light-2;
-$bg-dark-n: $n-dark-1;
-$text-color-n: $n-light-1;
-
-// Navbar text and toggler
-$navbar-dark-color: rgba($n-light-2, 1.0) !default;
-$navbar-dark-hover-color: rgba($n-light-1, 1.0) !default;
-$navbar-dark-active-color: $n-light-1 !default;
-$navbar-dark-disabled-color: rgba($n-light-2, .99) !default;
-$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
-$navbar-dark-toggler-border-color: rgba($n-light-1, .1) !default;
-
-
-$nav-link-padding-y: .5rem !default;
-$nav-link-padding-x: 1rem !default;
-$nav-link-font-size: 0.9rem;
-$nav-link-font-weight: 700;
-$nav-link-color: rgba($n-light-2, 0.75) !default;
-$nav-link-hover-color: rgba($n-light-1, 1.0) !default;
-$nav-link-transition: color .15s ease-in-out,
-background-color .15s ease-in-out,
-border-color .15s ease-in-out !default;
-$nav-link-disabled-color: rgba($n-light-2, 0.35) !default;
-
+@import "navbar.scss";
 
 // 3. Include remainder of required Bootstrap stylesheets:
 @import "../node_modules/bootstrap/scss/variables";
@@ -85,3 +54,4 @@ $nav-link-disabled-color: rgba($n-light-2, 0.35) !default;
 
 // 5. Add your custom Sass below, either directly or via imports:
 @import "custom.scss";
+@import "buttons.scss";
