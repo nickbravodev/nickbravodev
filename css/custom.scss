@@ -15,9 +15,21 @@ h2 {
   font: 900 2rem/120% $font-family-base, sans-serif;
 }
 
-hr {
-  border: 2px solid $n-light-2;
-  width: 6rem;
+h3 {
+  font: 700 1.4rem/120% $font-family-base, sans-serif;
+}
+
+nav {
+  background-color: rgba($n-dark-1, 0.85);
+}
+
+header,
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .brand-text {
@@ -40,6 +52,19 @@ hr {
   font: 500 1.5rem/130% $font-family-base, sans-serif;
 }
 
+.hr-div {
+  height: .15rem;
+  width: 6rem;
+  background-color: $n-light-2;
+  margin: 1.5rem 0;
+}
+
+.hr-div-dark {
+  @extend .hr-div;
+  background-color: $n-dark-2;
+  margin: 1.5rem auto;
+}
+
 .cta {
   display: inline-block;
   font: 500 1rem/120% $font-family-base, sans-serif;
@@ -55,7 +80,7 @@ hr {
   user-select: none;
   background-color: transparent;
   border: 2px solid $n-light-1;
-  border-radius: 7px;
+  border-radius: $border-radius;
   padding: .5rem 2rem;
   // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
   @include transition($btn-transition);
@@ -92,6 +117,22 @@ hr {
   }
 }
 
+.p-card {
+  background-color: $n-light-2;
+  border-radius: $border-radius;
+
+  .hr-div {
+    background-color: $n-dark-2;
+  }
+}
+
+
+
 .copyright {
   font: 400 .8rem/120% $font-family-base, sans-serif;
+}
+
+.footer-social {
+  height: 1.5rem;
+  width: auto;
 }

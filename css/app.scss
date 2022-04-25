@@ -3,9 +3,12 @@
 @import url("https://use.typekit.net/ybn6dil.css");
 
 // 2. Include any default variable overrides here:
+@import "spacers.scss";
 @import "colors.scss";
 @import "fonts.scss";
+@import "borders.scss";
 @import "navbar.scss";
+@import "forms.scss";
 
 // 3. Include remainder of required Bootstrap stylesheets:
 @import "../node_modules/bootstrap/scss/variables";

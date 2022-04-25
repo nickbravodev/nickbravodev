@@ -1,0 +1,27 @@
+// Forms
+
+form {
+
+  input,
+  textarea {
+    color: $n-dark-1;
+    background-color: $n-light-2;
+    width: 100%;
+    box-sizing: border-box;
+    border: .15rem solid $n-dark-1;
+    border-radius: $border-radius;
+    padding: 0.7rem;
+    outline: none;
+  }
+
+  input:focus,
+  textarea:focus {
+    background-color: $n-light-1;
+    border: .15rem solid $n-dark-2;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: $n-dark-2;
+  }
+}
