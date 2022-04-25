@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Version 0.85 -->
+  <!-- Welcome to my favorite view! There are plenty of notes if you want to see how everything is laid out. -->
+  <!-- If you want to look at all the support code and previous commits, you can find them at: -->
+  <!-- https://github.com/nickbravodev/nickbravodev -->
 
   <head>
     <meta charset="utf-8">
@@ -14,6 +18,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg px-5 sticky-lg-top">
       <div class="container-fluid d-flex justify-content-between">
+        <!-- Brand logo SVG -->
         <a class="navbar-brand" href="#"><svg class="brand-img" id="Group_5" data-name="Group 5"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 79.703">
             <path id="Path_22" data-name="Path 22"
@@ -32,18 +37,23 @@
               d="M121.823,38.415V57.621l14.305-8.259-5.3-3.06.028-2.042,10.174-5.874v4.505l-.831.48V39.826l-8.518,4.918-.015,1.082,6.124,3.536L134.9,51.029V55.4l1.658,1.008,3.483,2.117-.068,4.719,7.09,4.176,5-2.889,0-18.6,1.115-.644V20.307Z"
               transform="translate(-87.054 -14.511)" fill="#dde0bd" />
           </svg>
+          <!-- Brand name -->
           <span class="brand-text">Nick Bravo</span></a>
+        <!-- Navbar toggle for small screens -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav links -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-md-auto">
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#scope">Scope</a>
             <a class="nav-link" href="#work">Work</a>
             <a class="nav-link" href="#contact">Contact</a>
+            <!-- Resume link visible only in collapsed mode -->
             <a class="nav-link d-lg-none" href="#">Resume</a>
+            <!-- Resume link (button) visble only in expanded view (larger screens) -->
             <a class="cta d-none d-lg-block ms-2" href="#">Resume</a>
           </div>
         </div>
@@ -63,12 +73,13 @@
               <p class="subheading">I build private and secure websites, portals, visual identities, and online assets
                 to solidify brand
                 authority and trust across platforms.</p>
+              <!-- CTA buttons -->
               <div>
                 <a class="cta me-2" href="#contact">Contact me</a>
                 <a class="cta" href="#">Resume</a>
               </div>
             </div>
-            <!-- Hero image -->
+            <!-- Hero image SVG -->
             <div class="d-none d-md-block col-md-5 col-lg-3 d-flex justify-content-center">
               <svg class="img-fluid" id="Group_6" data-name="Group 6" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 287.001 305">
@@ -108,6 +119,7 @@
                 course I initially
                 laid out.</p>
               <p>Long version? My official biography is set to be released in 2552.</p>
+              <!-- CTA buttons -->
               <div>
                 <a class="cta me-2" href="#">Contact me</a>
                 <a class="cta" href="#">Resume</a>
@@ -124,6 +136,7 @@
       <section id="scope" class="px-3 py-8">
         <div class="container">
           <div class="row flex align-items-start justify-content-center">
+            <!-- Scope main text -->
             <div class="col-md-7 col-lg-6 pe-md-5">
               <h2>Languages & frameworks.</h2>
               <div class="hr-div"></div>
@@ -136,6 +149,7 @@
                 <a class="cta" href="#">Resume</a>
               </div>
             </div>
+            <!-- Scope detail text -->
             <div class="col-md-5 col-lg-3 mt-5 mt-md-0">
               <div>
                 <h3>Design</h3>
@@ -154,6 +168,7 @@
       <!-- Portfolio section -->
       <section id="work" class="px-3 py-8 bg-light">
         <div class="container">
+          <!-- Portfolio header -->
           <h2 class="text-dark text-center">A few of my projects.</h2>
           <div class="hr-div-dark"></div>
           <p class="subheading text-dark text-center pb-5">Here are some projects I've worked on as a designer and
@@ -163,7 +178,7 @@
           <div id="carouselExampleCaptions" class="carousel slide p-card shadow overflow-hidden"
             data-bs-ride="carousel">
             <div class="carousel-inner">
-              <!-- Start portfolio item -->
+              <!-- Start individual portfolio card -->
               <div class="carousel-item active">
                 <div class="row d-flex align-items-center">
                   <!-- Card image -->
@@ -181,8 +196,8 @@
                   </div>
                 </div>
               </div>
-              <!-- End portfolio item -->
-              <!-- Start portfolio item -->
+              <!-- End individual portfolio card -->
+              <!-- Start individual portfolio card -->
               <div class="carousel-item">
                 <div class="row d-flex align-items-center">
                   <!-- Card image -->
@@ -201,8 +216,8 @@
                   </div>
                 </div>
               </div>
-              <!-- End portfolio item -->
-              <!-- Start portfolio item -->
+              <!-- End individual portfolio card -->
+              <!-- Start individual portfolio card -->
               <div class="carousel-item">
                 <div class="row d-flex align-items-center">
                   <!-- Card image -->
@@ -221,7 +236,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End portfolio item -->
+              <!-- End individual portfolio card -->
             </div>
             <!-- Previous button -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -236,7 +251,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <!-- End portfolio cards -->
+          <!-- End portfolio carousel cards -->
         </div>
       </section>
       <!-- Contact section -->
@@ -244,6 +259,7 @@
         <div class="container">
           <div class="row flex align-items-start justify-content-center">
             <div class="col-md-6 col-lg-5 pe-md-5">
+              <!-- Contact text -->
               <h2>Get in touch.</h2>
               <div class="hr-div"></div>
               <p class="subheading">I'm ready to join your team! Send me a message if you think we'd be a great fit!</p>
@@ -251,19 +267,23 @@
             <!-- Contact form -->
             <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
               <form action="" class="contact-form w-100">
+                <!-- Name input -->
                 <div class="mb-4">
                   <label class="form-label visually-hidden" for="name">Name</label>
                   <input type="text" id="name" name="name" placeholder="Name" required>
                 </div>
+                <!-- Email input -->
                 <div class="mb-4">
                   <label class="form-label visually-hidden" for="email">Email</label>
                   <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
+                <!-- Message input -->
                 <div class="mb-4">
                   <label class="form-label visually-hidden" for="description">Message</label>
                   <textarea type="text" rows="3" id="description" name="message" placeholder="Type your message here"
                     required></textarea>
                 </div>
+                <!-- Submit button -->
                 <div class="mb-4">
                   <button class="cta">Send message</button>
                 </div>
@@ -274,8 +294,11 @@
       </section>
       <footer class="px-3 py-5">
         <div class="container">
+          <!-- Copyright -->
           <p class="text-center copyright mb-4">Copyright © 2022 NickBravo.dev. All rights reserved.</p>
+          <!-- Social links -->
           <div class="d-flex justify-content-center">
+            <!-- Github -->
             <a href="https://www.github.com/nickbravodev/" target="_blank">
               <svg class="footer-social mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.359 30.028">
                 <path id="Icon_feather-github" data-name="Icon feather-github"
@@ -284,6 +307,7 @@
                   stroke-linejoin="round" stroke-width="3" />
               </svg>
             </a>
+            <!-- Twitter -->
             <a href="https://www.twitter.com/nickbravodev/" target="_blank">
               <svg class="footer-social mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.103 30.297">
                 <path id="Icon_feather-twitter" data-name="Icon feather-twitter"
@@ -292,6 +316,7 @@
                   stroke-linejoin="round" stroke-width="3" />
               </svg>
             </a>
+            <!-- Instagram -->
             <a href="https://www.instagram.com/nickbravo.dev/" target="_blank">
               <svg class="footer-social mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
                 <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(-1.5 -1.5)">
