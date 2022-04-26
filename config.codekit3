@@ -65,6 +65,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/css\/btn-close.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/btn-close.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/css\/buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -150,6 +165,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/css\/navbar.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/offcanvas.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/offcanvas.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -372,7 +402,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672626630.92147303
+    "lastBuiltDate" : 672703201.84925604
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

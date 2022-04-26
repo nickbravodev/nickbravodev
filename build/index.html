@@ -23,8 +23,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark px-5 sticky-lg-top">
       <div class="container-fluid d-flex justify-content-between">
         <!-- Brand logo SVG -->
-        <a class="navbar-brand" href="#"><svg class="brand-img" id="Group_5" data-name="Group 5"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 79.703">
+        <a class="navbar-brand" href="#">
+          <svg class="brand-img" id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 75 79.703">
             <path id="Path_22" data-name="Path 22"
               d="M92.963,64.4V26.855L60.449,8.083,27.934,26.855V64.4L60.449,83.173Z"
               transform="translate(-19.961 -5.776)" fill="#343e3d" />
@@ -83,7 +84,8 @@
               <!-- CTA buttons -->
               <div>
                 <a class="cta me-2" href="#contact">Contact me</a>
-                <a class="cta" href="#">Resume</a>
+                <a class="cta" data-bs-toggle="offcanvas" data-bs-target="#resume" aria-controls="resume"
+                  href="#">Resume</a>
               </div>
             </div>
             <!-- Hero image SVG -->
@@ -127,8 +129,9 @@
               <!-- IYKYK -->
               <!-- CTA buttons -->
               <div>
-                <a class="cta me-2" href="#">Contact me</a>
-                <a class="cta" href="#">Resume</a>
+                <a class="cta me-2" href="#contact">Contact me</a>
+                <a class="cta" data-bs-toggle="offcanvas" data-bs-target="#resume" aria-controls="resume"
+                  href="#">Resume</a>
               </div>
             </div>
             <!-- Profile photo. Yes, it's really a photo of me! -->
@@ -150,10 +153,11 @@
                 I've been developing frontends using HTML, CSS, and JS since 2004 - you know, back when MySpace was
                 popular. I recently began the descent into the backend for the full(stack) experience.
               </p>
-              <p><code>Adobe CC, VS Code, HTML, CSS, JS, Bootstrap</code></p>
+              <p><code>Adobe CC, VS Code, Bootstrap, Tailwind, WordPress, Webflow</code></p>
               <div>
-                <a class="cta me-2" href="#">Contact me</a>
-                <a class="cta" href="#">Resume</a>
+                <a class="cta me-2" href="#contact">Contact me</a>
+                <a class="cta" data-bs-toggle="offcanvas" data-bs-target="#resume" aria-controls="resume"
+                  href="#">Resume</a>
               </div>
             </div>
             <!-- Scope detail text -->
@@ -190,27 +194,6 @@
                 <div class="row d-flex align-items-center">
                   <!-- Card image -->
                   <div class="col-12 col-xl-6">
-                    <img src="img/corporate-law-homepage.jpg" class="img-fluid rounded-3-start"
-                      alt="Homepage for corporate law website built using Webflow.">
-                  </div>
-                  <!-- Card description -->
-                  <div class="col-12 col-xl-5 p-5">
-                    <h2 class="text-dark">Corporate Law Website.</h2>
-                    <div class="hr-div"></div>
-                    <p class="text-dark">
-                      Simple brochure website I designed and built for a corporate law firm. I
-                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
-                    </p>
-                    <p class="text-dark small">Webflow, HTML, CSS, JavaScript, Adobe XD</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End individual portfolio card -->
-              <!-- Start individual portfolio card -->
-              <div class="carousel-item">
-                <div class="row d-flex align-items-center">
-                  <!-- Card image -->
-                  <div class="col-12 col-xl-6">
                     <img src="img/explore-eastern-utah-homepage.jpg" class="img-fluid rounded-3-start"
                       alt="Homepage for corporate law website built using Webflow.">
                   </div>
@@ -219,11 +202,12 @@
                     <h2 class="text-dark">Explore Eastern Utah.</h2>
                     <div class="hr-div"></div>
                     <p class="text-dark">
-                      Explore Eastern Utah was built to showcase local restaurants that were open
-                      during pandemic shutdowns. I designed it in Adobe XD and built it using WordPress and
-                      Bootstrap.
+                      I built Explore Eastern Utah to showcase local restaurants that remained open during pandemic
+                      shutdowns. I designed it in Adobe XD and made it using WordPress and Bootstrap. There is a lot of
+                      dynamic content to allow business owners to update their pages. I designed all logos and graphics
+                      in Adobe CC.
                     </p>
-                    <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
+                    <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe CC</p>
                   </div>
                 </div>
               </div>
@@ -241,10 +225,35 @@
                     <h2 class="text-dark">Arcane Ops. Paranormal Podcast.</h2>
                     <div class="hr-div"></div>
                     <p class="text-dark">
-                      Simple brochure website I designed and built for a corporate law firm. I
-                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
+                      Arcane Ops was a limited-run paranormal podcast that ran for seven episodes at the end of 2020. I
+                      designed it in Adobe XD and built it using WordPress, WooCommerce, and Bootstrap. I designed all
+                      logos and graphics in Adobe CC.
                     </p>
-                    <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
+                    <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe CC</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End individual portfolio card -->
+              <!-- Start individual portfolio card -->
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                  <!-- Card image -->
+                  <div class="col-12 col-xl-6">
+                    <img src="img/corporate-law-homepage.jpg" class="img-fluid rounded-3-start"
+                      alt="Homepage for corporate law website built using Webflow.">
+                  </div>
+                  <!-- Card description -->
+                  <div class="col-12 col-xl-5 p-5">
+                    <h2 class="text-dark">Corporate Law Website.</h2>
+                    <div class="hr-div"></div>
+                    <p class="text-dark">
+                      Simple brochure website I designed and built for a corporate law firm. I created the UI in Adobe
+                      XD and developed it using Webflow, Finsweet Client First, and custom JS components. I like
+                      Webflow's interface and ease of use, but it's a bit restrictive for complex styling. I designed
+                      all
+                      logos and graphics in Adobe CC.
+                    </p>
+                    <p class="text-dark small">Webflow, HTML, CSS, JavaScript, Adobe CC</p>
                   </div>
                 </div>
               </div>
@@ -262,10 +271,12 @@
                     <h2 class="text-dark">Sheriff Campaign Website.</h2>
                     <div class="hr-div"></div>
                     <p class="text-dark">
-                      Simple brochure website I designed and built for a corporate law firm. I
-                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
+                      Campaign website for a sheriff election. This website had many pages, a simple CMS for news
+                      updates, and simple PayPal API setup to accept donations. I created the UI in Adobe XD and built
+                      it using Bootstrap, HTML, CSS, JavaScript, and some basic PHP to run the CMS. I designed all logos
+                      and graphics in Adobe CC.
                     </p>
-                    <p class="text-dark small">HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
+                    <p class="text-dark small">HTML, CSS, JavaScript, PHP, Bootstrap, Adobe CC</p>
                   </div>
                 </div>
               </div>
@@ -299,7 +310,7 @@
             </div>
             <!-- Contact form -->
             <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
-              <form action="" class="contact-form w-100">
+              <form action="" method="post" class="contact-form w-100">
                 <!-- Name input -->
                 <div class="mb-4">
                   <label class="form-label visually-hidden" for="name">Name</label>
@@ -365,19 +376,176 @@
                     fill="none" stroke="#dde0bd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
                 </g>
               </svg>
+              <!-- Linkedin -->
+            </a>
+            <a href="https://www.linkedin.com/in/nickbravodev/" target="_blank">
+              <svg class="footer-social mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.421 30">
+                <g id="Icon_feather-linkedin" data-name="Icon feather-linkedin" transform="translate(-1.5 -1.5)">
+                  <path id="Path_168" data-name="Path 168"
+                    d="M23.526,12a8.526,8.526,0,0,1,8.526,8.526v9.947H26.368V20.526a2.842,2.842,0,1,0-5.684,0v9.947H15V20.526A8.526,8.526,0,0,1,23.526,12Z"
+                    transform="translate(-0.632 -0.474)" fill="none" stroke="#dde0bd" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="3" />
+                  <path id="Path_169" data-name="Path 169" d="M3,13.5H8.684V30.553H3Z" transform="translate(0 -0.553)"
+                    fill="none" stroke="#dde0bd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                  <path id="Path_170" data-name="Path 170"
+                    d="M8.684,5.842A2.842,2.842,0,1,1,5.842,3,2.842,2.842,0,0,1,8.684,5.842Z" fill="none"
+                    stroke="#dde0bd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                </g>
+              </svg>
             </a>
           </div>
         </div>
       </footer>
       <!-- Off-canvas resume popout -->
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="resume" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <div class="container offcanvas offcanvas-end bg-dark resume-popout" tabindex="-1" id="resume"
+        aria-labelledby="offcanvasRightLabel">
+        <!-- Resume header -->
+        <div class="offcanvas-header bg-dark py-4">
+          <!-- Brand logo -->
+          <svg class="brand-img me-0" id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 75 79.703">
+            <path id="Path_22" data-name="Path 22"
+              d="M92.963,64.4V26.855L60.449,8.083,27.934,26.855V64.4L60.449,83.173Z"
+              transform="translate(-19.961 -5.776)" fill="#343e3d" />
+            <path id="Path_23" data-name="Path 23"
+              d="M22.932,58.624V21.079L55.447,2.307,87.961,21.079V58.624L55.447,77.4ZM55.447,0l-1,.577L21.933,19.349l-1,.577V59.778l1,.577L54.448,79.127l1,.577,1-.577L88.96,60.354l1-.577V19.926l-1-.577L56.446.577Z"
+              transform="translate(-14.959)" fill="#607466" />
+            <path id="Path_24" data-name="Path 24"
+              d="M97.662,134.237l-.4-.243v-4.362l-4.027,2.325-7.806,4.507-1.247.72v-1.814l-4.773,2.756v5.507l-.416.24-8.681,5.012,11.354,6.555,11.265-6.5V138.473l6-3.464Z"
+              transform="translate(-50.245 -92.634)" fill="#dde0bd" />
+            <path id="Path_25" data-name="Path 25"
+              d="M0,113.994l17.614,10.17,1.622-.937,9.1-5.252v-5.507l5.6-3.236V94.4Z" transform="translate(0 -67.458)"
+              fill="#dde0bd" />
+            <path id="Path_26" data-name="Path 26"
+              d="M121.823,38.415V57.621l14.305-8.259-5.3-3.06.028-2.042,10.174-5.874v4.505l-.831.48V39.826l-8.518,4.918-.015,1.082,6.124,3.536L134.9,51.029V55.4l1.658,1.008,3.483,2.117-.068,4.719,7.09,4.176,5-2.889,0-18.6,1.115-.644V20.307Z"
+              transform="translate(-87.054 -14.511)" fill="#dde0bd" />
+          </svg>
+          <!-- Resume header text -->
+          <div class="ms-3 me-auto">
+            <h2 class="resume-heading">Nick Bravo</h2>
+            <p class="resume-subheading">Designer. Developer. Problem solver.</p>
+          </div>
+          <!-- Close button -->
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          ...
+        <!-- Resume body -->
+        <div id="resume-body" class="row offcanvas-body bg-light">
+          <!-- Performance profile -->
+          <div class="col-12">
+            <h3>PERFORMANCE PROFILE</h3>
+            <p>
+              Designer and developer with a lot of teamwork and leadership experience. Ability to plan and understand
+              project
+              requirements and structure and design them efficiently. Extensive frontend experience with HTML, CSS, and
+              JavaScript.
+              Currently delving into backend with Node.js, Express, and MongoDB. Exploring JS frameworks, including
+              React and Angular.
+              Fluent in Visual Studio Code, Adobe Creative Cloud software.
+            </p>
+          </div>
+          <!-- Work experience -->
+          <div class="col-12 col-md-8">
+            <h3>EXPERIENCE</h3>
+            <h4>FREELANCE DESIGNER / DEVELOPER</h4>
+            <h5>NICK BRAVO.DEV / 2007 - PRESENT</h5>
+            <ul>
+              <li>Build private and secure websites, portals, visual identities, and online assets to solidify brand
+                authority and trust
+                across platforms.</li>
+              <li>Design digital graphics using Adobe Creative Cloud Software.</li>
+              <li>Work with clients to achieve desired look, feel, and outcome.</li>
+            </ul>
+            <h4>GRAPHIC DESIGNER / WEB DEVELOPER</h4>
+            <h5>8FISH / 2008 - 2009</h5>
+            <ul>
+              <li>Worked with clients to develop brand identities, web and print graphics, websites, and other digital
+                media assets to
+                reinforce and elevate brands.</li>
+              <li>Created artwork and illustrations for print and web.</li>
+              <li>Crafted and managed social media and digital marketing content.</li>
+            </ul>
+            <h4>POLICE OFFICER</h4>
+            <h5><span>-----------------------------------</span> POLICE DEPARTMENT / 2021 - PRESENT</h5>
+            <ul>
+              <li>Acted as liaison between police department and marketing department to generate positive educational
+                safety content for
+                students, faculty, and staff.</li>
+              <li>Participated in content planning for a safety app currently in development.</li>
+            </ul>
+            <h4>POLICE DETECTIVE</h4>
+            <h5><span>------------------</span> POLICE DEPARTMENT / 2015 - 2021</h5>
+            <ul>
+              <li>Developed and supervised a comprehensive firearm deployment and training program.</li>
+              <li>Engaged in community events and public outreach programs, including D.A.R.E.</li>
+              <li>Investigated crimes, interviewed suspects, responded to citizen complaints, and positively
+                interacted
+                with people in
+                crisis.</li>
+            </ul>
+            <h4>POLICE LIEUTENANT</h4>
+            <h5><span>-------------------------</span> POLICE DEPARTMENT / 2010 - 2015</h5>
+            <ul>
+              <li>Designed and developed department website and managed social media.</li>
+              <li>Drafted press releases for media outlets.</li>
+              <li>Participated in community events to build trust with the community.</li>
+              <li>Interfaced with other public safety agencies to improve service quality.</li>
+              <li>Developed Reserve Officer program that slashed personnel budget by 30%.</li>
+              <li>Quarterbacked operations, training, and budget.</li>
+            </ul>
+            <!-- Education history -->
+            <h3>EDUCATION</h3>
+            <h4>BACHELOR OF SCIENCE / DIGITAL CINEMATOGRAPHY</h4>
+            <h5><span>------------------</span> UNIVERSITY / 2019</h5>
+            <p>GPA 3.99 / VALEDICTORIAN</p>
+            <h4>ASSOCIATE OF APPLIED SCIENCE / GRAPHIC DESIGN</h4>
+            <h5>COLLEGE OF <span>------------------</span> / 2008</h5>
+          </div>
+          <!-- Resume skills breakdown -->
+          <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <h3>HARD SKILLS</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Bootstrap</li>
+              <li>WordPress</li>
+              <li>Visual Studio Code</li>
+              <li>Adobe Creative Suite</li>
+            </ul>
+            <h3>SOFT SKILLS</h3>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Decision Making</li>
+              <li>Team Leadership</li>
+              <li>Public Relations</li>
+              <li>Strategic Planning</li>
+              <li>Interpersonal Communication</li>
+              <li>Crisis Intervention</li>
+              <li>Conflict Resolution</li>
+              <li>Critical Thinking</li>
+              <li>Detail Oriented</li>
+              <li>Presentations</li>
+            </ul>
+          </div>
         </div>
+        <div class="resume-download">
+          <a href="#">
+            <svg class="resume-download-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-3 -3)">
+                <path id="Path_171" data-name="Path 171" d="M31.5,22.5v6a3,3,0,0,1-3,3H7.5a3,3,0,0,1-3-3v-6" fill="none"
+                  stroke="#dde0bd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                <path id="Path_172" data-name="Path 172" d="M10.5,15,18,22.5,25.5,15" fill="none" stroke="#dde0bd"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                <path id="Path_173" data-name="Path 173" d="M18,22.5V4.5" fill="none" stroke="#dde0bd"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
       </div>
     </main>
   </body>

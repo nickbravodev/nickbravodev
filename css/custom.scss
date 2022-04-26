@@ -69,58 +69,6 @@ section {
   margin: 1.5rem auto;
 }
 
-.cta {
-  display: inline-block;
-  font: 500 1rem/120% $font-family-base, sans-serif;
-  // font-family: $btn-font-family;
-  // font-weight: 500;
-  // line-height: $btn-line-height;
-  color: $n-light-1;
-  text-align: center;
-  text-decoration: if($link-decoration==none, null, none);
-  white-space: $btn-white-space;
-  vertical-align: middle;
-  cursor: if($enable-button-pointers, pointer, null);
-  user-select: none;
-  background-color: transparent;
-  border: 2px solid $n-light-1;
-  border-radius: $border-radius;
-  padding: .5rem 2rem;
-  // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
-  @include transition($btn-transition);
-
-  &:hover {
-    color: $n-dark-1;
-    background-color: $n-light-2;
-    text-decoration: if($link-hover-decoration==underline, none, null);
-  }
-
-  .cta-check:focus + &,
-  &:focus {
-    outline: 0;
-    box-shadow: $btn-focus-box-shadow;
-  }
-
-  .cta-check:checked + &,
-  .cta-check:active + &,
-  &:active,
-  &.active {
-    @include box-shadow($btn-active-box-shadow);
-
-    &:focus {
-      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
-    }
-  }
-
-  &:disabled,
-  &.disabled,
-  fieldset:disabled & {
-    pointer-events: none;
-    opacity: $btn-disabled-opacity;
-    @include box-shadow(none);
-  }
-}
-
 .p-card {
   background-color: $n-light-2;
   border-radius: $border-radius;
@@ -130,8 +78,6 @@ section {
   }
 }
 
-
-
 .copyright {
   font: 400 .8rem/120% $font-family-base, sans-serif;
 }
@@ -139,4 +85,70 @@ section {
 .footer-social {
   height: 1.5rem;
   width: auto;
+}
+
+.resume-popout {
+  width: 100%;
+  max-width: 60rem;
+}
+
+.resume-heading {
+  font: 900 1.5rem/120% $font-family-base, sans-serif;
+  margin-top: 0rem;
+  margin-bottom: 0;
+}
+
+.resume-subheading {
+  font: 700 1rem/120% $font-family-base, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#resume-body {
+
+  h3 {
+    color: $n-dark-1;
+    font: 700 1rem/120% $font-family-base, sans-serif;
+    margin-top: 0.9rem;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: $n-dark-2;
+    font: 700 0.9rem/120% $font-family-base, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    color: $n-dark-1;
+    font: 700 0.8rem/120% $font-family-base, sans-serif;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+
+  p,
+  li {
+    color: $n-dark-2;
+    font: 400 0.9rem/130% $font-family-base, sans-serif;
+  }
+
+  ul {
+    margin: 0.5rem 0;
+  }
+
+  span {
+    background-color: $n-dark-1;
+  }
+}
+
+.resume-download {
+  background-color: $n-dark-1;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+}
+
+.resume-download-link {
+  padding: .8rem;
 }
