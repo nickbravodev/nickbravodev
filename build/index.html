@@ -10,15 +10,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Bravo - Designer. Developer. Problem solver.</title>
-    <!-- Compiled CSS stylesheet with a lot of Bootstrap and custom styles. -->
+    <!-- Compiled CSS stylesheet (compiled with CodeKit - awesome app, btw) with a lot of Bootstrap and custom styles. Compiled and uncompiled views are in my Github repo. -->
     <link rel="stylesheet" href="css/app.css">
     <!-- Complete Bootstrap JS bundle because you just never know when you'll need it. -->
-    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg px-5 sticky-lg-top">
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 sticky-lg-top">
       <div class="container-fluid d-flex justify-content-between">
         <!-- Brand logo SVG -->
         <a class="navbar-brand" href="#"><svg class="brand-img" id="Group_5" data-name="Group 5"
@@ -42,21 +44,23 @@
           <!-- Brand name -->
           <span class="brand-text">Nick Bravo</span></a>
         <!-- Navbar toggle for small screens -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Nav links -->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbar-links">
           <div class="navbar-nav ms-md-auto">
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#scope">Scope</a>
             <a class="nav-link" href="#work">Work</a>
             <a class="nav-link" href="#contact">Contact</a>
             <!-- Resume link visible only in collapsed mode -->
-            <a class="nav-link d-lg-none" href="#">Resume</a>
+            <a class="nav-link d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#resume" aria-controls="resume"
+              href="#">Resume</a>
             <!-- Resume link (button) visble only in expanded view (larger screens) -->
-            <a class="cta d-none d-lg-block ms-2" href="#">Resume</a>
+            <a class="cta d-none d-lg-block ms-2" data-bs-toggle="offcanvas" data-bs-target="#resume"
+              aria-controls="resume" href="#">Resume</a>
           </div>
         </div>
       </div>
@@ -72,9 +76,10 @@
               <p class="superheading">Nick Bravo.</p>
               <h1>Designer. Developer. Problem solver.</h1>
               <div class="hr-div"></div>
-              <p class="subheading">I build private and secure websites, portals, visual identities, and online assets
-                to solidify brand
-                authority and trust across platforms.</p>
+              <p class="subheading">
+                I build private and secure websites, portals, visual identities, and online assets
+                to solidify brand authority and trust across platforms.
+              </p>
               <!-- CTA buttons -->
               <div>
                 <a class="cta me-2" href="#contact">Contact me</a>
@@ -113,21 +118,20 @@
             <div class="col-md-7 col-lg-6 ps-md-5">
               <h2>Career change from cop to developer? Don't mind if I do!</h2>
               <div class="hr-div"></div>
-              <p>Short version? I'm ready to make a career change to a full-time developer. I've been
-                a cop for over ten years. I worked
-                full-time as a graphic designer and frontend developer for two years before working in law enforcement.
-                I've been doing
-                sparse freelance work ever since - enough to keep me in the loop. The time has come to return to the
-                course I initially
-                laid out.</p>
+              <p>
+                Short version? I'm making a career change from a cop to a full-time developer. I've been a cop for over
+                ten years, but I worked full-time as a graphic designer and frontend developer for two years before
+                working in law enforcement. I've been doing freelance work ever since - enough to keep me in the loop.
+              </p>
               <p>Long version? My official biography is set to be released in 2552.</p>
+              <!-- IYKYK -->
               <!-- CTA buttons -->
               <div>
                 <a class="cta me-2" href="#">Contact me</a>
                 <a class="cta" href="#">Resume</a>
               </div>
             </div>
-            <!-- Profile photo -->
+            <!-- Profile photo. Yes, it's really a photo of me! -->
             <div class="col-7 col-md-5 col-lg-3 d-flex justify-content-center mt-5 mt-md-0">
               <img class="img-fluid" src="img/profile-photo.jpg" alt="Redacted photo of Nick Bravo.">
             </div>
@@ -142,9 +146,10 @@
             <div class="col-md-7 col-lg-6 pe-md-5">
               <h2>Languages & frameworks.</h2>
               <div class="hr-div"></div>
-              <p class="subheading">I've been developing frontends using HTML, CSS, and JS since 2004 - you know, back
-                when MySpace was popular. I recently
-                began the descent into the backend for the full(stack) experience.</p>
+              <p class="subheading">
+                I've been developing frontends using HTML, CSS, and JS since 2004 - you know, back when MySpace was
+                popular. I recently began the descent into the backend for the full(stack) experience.
+              </p>
               <p><code>Adobe CC, VS Code, HTML, CSS, JS, Bootstrap</code></p>
               <div>
                 <a class="cta me-2" href="#">Contact me</a>
@@ -192,8 +197,10 @@
                   <div class="col-12 col-xl-5 p-5">
                     <h2 class="text-dark">Corporate Law Website.</h2>
                     <div class="hr-div"></div>
-                    <p class="text-dark">Simple brochure website I designed and built for a corporate law firm. I
-                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.</p>
+                    <p class="text-dark">
+                      Simple brochure website I designed and built for a corporate law firm. I
+                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
+                    </p>
                     <p class="text-dark small">Webflow, HTML, CSS, JavaScript, Adobe XD</p>
                   </div>
                 </div>
@@ -211,9 +218,11 @@
                   <div class="col-12 col-xl-5 p-5">
                     <h2 class="text-dark">Explore Eastern Utah.</h2>
                     <div class="hr-div"></div>
-                    <p class="text-dark">Explore Eastern Utah was built to showcase local restaurants that were open
+                    <p class="text-dark">
+                      Explore Eastern Utah was built to showcase local restaurants that were open
                       during pandemic shutdowns. I designed it in Adobe XD and built it using WordPress and
-                      Bootstrap.</p>
+                      Bootstrap.
+                    </p>
                     <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
                   </div>
                 </div>
@@ -231,9 +240,32 @@
                   <div class="col-12 col-xl-5 p-5">
                     <h2 class="text-dark">Arcane Ops. Paranormal Podcast.</h2>
                     <div class="hr-div"></div>
-                    <p class="text-dark">Simple brochure website I designed and built for a corporate law firm. I
-                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.</p>
-                    <p class="text-dark small">Webflow, HTML, CSS, JavaScript, Adobe XD</p>
+                    <p class="text-dark">
+                      Simple brochure website I designed and built for a corporate law firm. I
+                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
+                    </p>
+                    <p class="text-dark small">WordPress, HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End individual portfolio card -->
+              <!-- Start individual portfolio card -->
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                  <!-- Card image -->
+                  <div class="col-12 col-xl-6">
+                    <img src="img/sheriff-wood-homepage.jpg" class="img-fluid rounded-3-start"
+                      alt="Homepage for corporate law website built using Webflow.">
+                  </div>
+                  <!-- Card description -->
+                  <div class="col-12 col-xl-5 p-5">
+                    <h2 class="text-dark">Sheriff Campaign Website.</h2>
+                    <div class="hr-div"></div>
+                    <p class="text-dark">
+                      Simple brochure website I designed and built for a corporate law firm. I
+                      designed the UI in Adobe XD and developed it using Webflow with custom JS components.
+                    </p>
+                    <p class="text-dark small">HTML, CSS, JavaScript, Bootstrap, Adobe XD</p>
                   </div>
                 </div>
               </div>
@@ -337,8 +369,17 @@
           </div>
         </div>
       </footer>
+      <!-- Off-canvas resume popout -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="resume" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
     </main>
   </body>
-  <!-- I've always hated the closing tag tail... -->
 
 </html>
