@@ -310,7 +310,10 @@
             </div>
             <!-- Contact form -->
             <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
-              <form action="" method="post" class="contact-form w-100">
+              <form name="contact-form" action="" method="post" data-netlify="true" onsubmit="submit"
+                data-netilfy-honeypot="bot-field" class="contact-form w-100">
+                <!-- Robot honeypot. That rhymes! -->
+                <input class="d-none" name="bot-field">
                 <!-- Name input -->
                 <div class="mb-4">
                   <label class="form-label visually-hidden" for="name">Name</label>
