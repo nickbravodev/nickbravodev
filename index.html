@@ -587,8 +587,8 @@
                 event.stopPropagation();
               } else if (form.checkValidity() == true) {
                 event.preventDefault();
+                form.submit();
                 $('#contact-form-success').modal('show');
-                submit();
               }
               form.classList.add('was-validated');
             }, false);
