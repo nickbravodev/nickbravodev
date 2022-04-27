@@ -7,10 +7,10 @@ $n-light-2: #d0d1ac !default;
 // scss-docs-start theme-color-variables
 // $primary: $blue !default;
 // $secondary: $gray-600 !default;
-// $success: $green !default;
+$success: $n-dark-2 !default;
 // $info: $cyan !default;
 // $warning: $yellow !default;
-// $danger: $red !default;
+$danger: #ba3f1d !default;
 $light: $n-light-1 !default;
 $dark: $n-dark-1 !default;
 $light-2: $n-light-2 !default;

@@ -1,27 +1,38 @@
 // Forms
 
-form {
+.form-input,
+.form-textarea {
+  color: $n-dark-1;
+  background-color: $n-light-2;
+  width: 100%;
+  box-sizing: border-box;
+  border: .15rem solid $n-dark-1;
+  border-radius: $border-radius;
+  padding: 0.7rem;
+  outline: none;
+}
 
-  input,
-  textarea {
-    color: $n-dark-1;
-    background-color: $n-light-2;
-    width: 100%;
-    box-sizing: border-box;
-    border: .15rem solid $n-dark-1;
-    border-radius: $border-radius;
-    padding: 0.7rem;
-    outline: none;
-  }
+.form-input:focus,
+.form-textarea:focus {
+  background-color: $n-light-1;
+  border: .15rem solid $n-dark-2;
+}
 
-  input:focus,
-  textarea:focus {
-    background-color: $n-light-1;
-    border: .15rem solid $n-dark-2;
-  }
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: $n-dark-2;
+}
 
-  input::placeholder,
-  textarea::placeholder {
-    color: $n-dark-2;
-  }
+.form-success {
+  background-color: $n-light-1;
+}
+
+.form-success-title {
+  color: $n-light-1;
+  font: 700 1.5rem/130% $font-family-base, sans-serif;
+}
+
+.form-success-text {
+  color: $n-dark-2;
+  font: 500 1.2rem/130% $font-family-base, sans-serif;
 }
