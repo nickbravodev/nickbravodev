@@ -585,11 +585,12 @@
               if (form.checkValidity() === false) {
                 event.preventDefault();
                 event.stopPropagation();
-              } else if (form.checkValidity() == true) {
-                form.submit();
-                event.preventDefault();
-                $('#contact-form-success').modal('show');
               }
+              // else if (form.checkValidity() == true) {
+              //   form.submit();
+              //   event.preventDefault();
+              //   $('#contact-form-success').modal('show');
+              // }
               form.classList.add('was-validated');
             }, false);
           });
