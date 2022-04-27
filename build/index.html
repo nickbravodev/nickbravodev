@@ -582,15 +582,14 @@
         Array.from(forms)
           .forEach(function(form) {
             form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
+              if (!form.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();
+              } else if (form.checkValidity() == true) {
+                form.submit();
+                event.preventDefault();
+                $('#contact-form-success').modal('show');
               }
-              // else if (form.checkValidity() == true) {
-              //   form.submit();
-              //   event.preventDefault();
-              //   $('#contact-form-success').modal('show');
-              // }
               form.classList.add('was-validated');
             }, false);
           });
