@@ -327,7 +327,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/js\/app.js",
       "oF" : 3,
       "sC" : 3,
@@ -338,7 +338,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/js\/bootstrap.bundle-min.js",
       "oF" : 1,
       "sC" : 3,
@@ -349,9 +349,20 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/js\/bootstrap.bundle.min-min.js",
       "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/form-validation.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/form-validation.js",
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -360,7 +371,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/js\/scrollspy-min.js",
       "oF" : 1,
       "sC" : 3,
@@ -414,6 +425,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/resume\/nick-bravo-developer-resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/resume\/nick-bravo-developer-resume.pdf",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -428,7 +447,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672727430.15075696
+    "lastBuiltDate" : 672731474.63486099
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
