@@ -10,7 +10,7 @@
           event.stopPropagation();
         } else if (form.checkValidity() == true) {
           event.preventDefault();
-          $('#contact-form-success').modal("show");
+          $('#contact-form-success').modal('show');
         }
         form.classList.add('was-validated');
       }, false);
