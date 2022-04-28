@@ -13938,6 +13938,11 @@ section {
   margin: 1.5rem auto;
 }
 
+.profile-image {
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
 .p-card {
   background-color: #dde0bd;
   border-radius: 0.6rem;

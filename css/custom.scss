@@ -85,6 +85,11 @@ section {
   margin: 1.5rem auto;
 }
 
+.profile-image {
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+
 .p-card {
   background-color: $n-light-2;
   border-radius: $border-radius;
