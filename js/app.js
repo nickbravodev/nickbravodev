@@ -16,9 +16,15 @@
       }, false);
     });
 })();
+
 // Contact form success popup
 $(document).ready(function() {
   if (window.location.href.indexOf('#success') != -1) {
     $('#success').modal('show');
   }
 });
+
+// Prevent form from resubmitting on refresh
+if (window.history.replaceState) {
+  window.history.replaceState(null, null, window.location.href);
+}
