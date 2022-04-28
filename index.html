@@ -24,7 +24,7 @@
       crossorigin="anonymous"></script>
     <!-- JQuery to help with the form success popup. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script defer src="js/app.js"></script> -->
+    <script defer src="js/app.js"></script>
   </head>
 
   <body>
@@ -244,15 +244,15 @@
                   </div>
                   <!-- Card description -->
                   <div class="col-12 col-xl-6">
-                    <div class="p-card-links">
-                      <a href="https://arcaneops.com/" target="_blank">
+                    <!-- <div class="p-card-links">
+                      <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
                           <path id="Icon_ionic-md-open" data-name="Icon ionic-md-open"
                             d="M28.5,28.5H7.5V7.5h9.375v-3H7.5a3.008,3.008,0,0,0-3,3v21a3.008,3.008,0,0,0,3,3h21a3.008,3.008,0,0,0,3-3V19.125h-3Zm-8.25-24v3H26.4L11.25,22.65l2.1,2.1L28.5,9.6v6.15h3V4.5Z"
                             transform="translate(-4.5 -4.5)" fill="#607466" />
                       </a>
                       </svg>
-                    </div>
+                    </div> -->
                     <div class="p-card-description">
                       <h2 class="text-dark">Arcane Ops. Paranormal Podcast.</h2>
                       <div class="hr-div"></div>
@@ -628,30 +628,30 @@
       </div>
     </main>
     <script>
-      // Form validation
-      (function() {
-        'use strict';
-        const forms = document.querySelectorAll('.needs-validation');
-        Array.from(forms)
-          .forEach(function(form) {
-            form.addEventListener('submit', function(event) {
-              if (!form.checkValidity()) {
-                event.preventDefault();
-                event.stopPropagation();
-              } else if (form.checkValidity() == true) {
-                event.preventDefault();
-                form.submit();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-      })();
-      // Contact form success popup
-      $(document).ready(function() {
-        if (window.location.href.indexOf('#success') != -1) {
-          $('#success').modal('show');
-        }
-      });
+      // // Form validation
+      // (function() {
+      //   'use strict';
+      //   const forms = document.querySelectorAll('.needs-validation');
+      //   Array.from(forms)
+      //     .forEach(function(form) {
+      //       form.addEventListener('submit', function(event) {
+      //         if (!form.checkValidity()) {
+      //           event.preventDefault();
+      //           event.stopPropagation();
+      //         } else if (form.checkValidity() == true) {
+      //           event.preventDefault();
+      //           form.submit();
+      //         }
+      //         form.classList.add('was-validated');
+      //       }, false);
+      //     });
+      // })();
+      // // Contact form success popup
+      // $(document).ready(function() {
+      //   if (window.location.href.indexOf('#success') != -1) {
+      //     $('#success').modal('show');
+      //   }
+      // });
     </script>
   </body>
 
