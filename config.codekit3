@@ -223,6 +223,14 @@
       "oAP" : "\/build\/Dockerfile",
       "oF" : 1
     },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/favicon.ico",
+      "oF" : 0
+    },
     "\/img\/arcane-ops-episode-page.jpg" : {
       "ft" : 16384,
       "iS" : 159449,
@@ -284,6 +292,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/open-graph.png" : {
+      "ft" : 32768,
+      "iS" : 34251,
+      "oA" : 0,
+      "oAP" : "\/build\/img\/open-graph.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -447,7 +468,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672731474.63486099
+    "lastBuiltDate" : 672803042.73243701
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

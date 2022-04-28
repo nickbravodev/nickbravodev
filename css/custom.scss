@@ -1,3 +1,19 @@
+.color-dark-1 {
+  color: $n-dark-1;
+}
+
+.color-dark-2 {
+  color: $n-dark-2;
+}
+
+.color-light-1 {
+  color: $n-light-1;
+}
+
+.color-light-2 {
+  color: $n-light-2;
+}
+
 body {
   position: relative;
 }
@@ -78,8 +94,57 @@ section {
   }
 }
 
+.p-card-img {
+  max-width: 120%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  position: 50% 50%;
+}
+
+.p-card-links {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  z-index: 10000;
+
+  a {
+    padding: 0.8rem;
+  }
+
+  svg {
+    height: 1rem;
+  }
+}
+
+
+.p-card-description {
+  padding: 3rem
+}
+
+@include media-breakpoint-up(xl) {
+  .p-card-links {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .p-card-description {
+    padding-right: 8rem;
+  }
+
+  .p-card-links {
+    padding: 0 1rem;
+  }
+}
+
 .copyright {
-  font: 400 .8rem/120% $font-family-base, sans-serif;
+  font: 400 0.8rem/120% $font-family-base, sans-serif;
 }
 
 .footer-social {
@@ -150,6 +215,6 @@ section {
 }
 
 .resume-download-link {
-  padding: .8rem;
+  padding: 0.8rem;
   height: 100%;
 }
