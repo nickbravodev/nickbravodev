@@ -21,6 +21,10 @@
 $(document).ready(function() {
   if (window.location.href.indexOf('#success') != -1) {
     $('#success').modal('show');
+    // Dismiss modal after 3 seconds if no input
+    setTimeout(function() {
+      $("#success").modal('hide');
+    }, 3000);
   }
 });
 
