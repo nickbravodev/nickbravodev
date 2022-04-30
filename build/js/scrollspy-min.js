@@ -1,1 +1,0 @@
-var scrollSpy=new bootstrap.ScrollSpy(document.body,{target:"#navbar-scrollspy"}),firstScrollSpyEl=document.querySelector('[data-bs-spy="scroll"]');firstScrollSpyEl.addEventListener("activate.bs.scrollspy",(function(){}));
