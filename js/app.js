@@ -32,5 +32,3 @@ $(document).ready(function() {
 if (window.history.replaceState) {
   window.history.replaceState(null, null, window.location.href);
 }
-
-// $('.p-card-img-div').height($('.p-card-caption').height());
