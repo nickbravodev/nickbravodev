@@ -238,7 +238,7 @@
     },
     "\/img\/arcane-ops-homepage.jpg" : {
       "ft" : 16384,
-      "iS" : 145581,
+      "iS" : 164836,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/build\/img\/arcane-ops-homepage.jpg",
@@ -251,7 +251,7 @@
     },
     "\/img\/corporate-law-homepage.jpg" : {
       "ft" : 16384,
-      "iS" : 97878,
+      "iS" : 135929,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/build\/img\/corporate-law-homepage.jpg",
@@ -277,13 +277,13 @@
     },
     "\/img\/explore-eastern-utah-homepage.jpg" : {
       "ft" : 16384,
-      "iS" : 150417,
+      "iS" : 256760,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/build\/img\/explore-eastern-utah-homepage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

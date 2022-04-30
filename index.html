@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
-  <!-- Version 1.0 -->
+  <!-- Version 1.0.1 -->
   <!-- Welcome to my favorite view! There are plenty of notes if you want to see how everything is laid out. -->
   <!-- Check out all the support code and previous commits at https://github.com/nickbravodev/nickbravodev -->
 
@@ -13,13 +13,15 @@
                 to solidify brand authority and trust across platforms." />
     <meta property="og:title" content="Nick Bravo - Designer. Developer. Problem solver." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://nickbravo.dev/" />
     <meta property="og:image" content="img/open-graph.png" />
+    <meta property="og:url" content="https://nickbravo.dev/" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Compiled CSS stylesheet (compiled with CodeKit - awesome app, btw) with a lot of Bootstrap and custom styles. Compiled and uncompiled views are in my Github repo. -->
     <link rel="stylesheet" href="css/app.css">
-    <!-- Complete Bootstrap JS bundle because you just never know when you'll need it. -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Linking Adobe fonts for Proxima Nova -->
+    <link rel="stylesheet" href="https://use.typekit.net/ybn6dil.css">
+    <!-- Complete Bootstrap JS bundle because you just never know when you'll need a piece. -->
+    <script defer src="js/bootstrap.bundle.min.js"></script>
     <!-- JQuery to help with the form success popup. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer src="js/app.js"></script>
@@ -198,14 +200,14 @@
             <div class="carousel-inner">
               <!-- Start individual portfolio card -->
               <div class="carousel-item active">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center p-card-container">
                   <!-- Card image -->
-                  <div class="col-12 col-xl-6">
+                  <div class="p-card-img-div">
                     <img src="img/explore-eastern-utah-homepage.jpg" class="img-fluid"
                       alt="Homepage for Explore Eastern Utah, built using WordPress.">
                   </div>
                   <!-- Card description -->
-                  <div class="col-12 col-xl-6">
+                  <div class="p-card-caption">
                     <!-- <div class="p-card-links">
                       <a href="https://exploreeasternutah.com/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
@@ -234,14 +236,14 @@
               <!-- End individual portfolio card -->
               <!-- Start individual portfolio card -->
               <div class="carousel-item">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center p-card-container">
                   <!-- Card image -->
-                  <div class="col-12 col-xl-6">
-                    <img src="img/arcane-ops-homepage.jpg" class="img-fluid rounded-3-start"
+                  <div class="p-card-img-div">
+                    <img src="img/arcane-ops-homepage.jpg" class="img-fluid"
                       alt="Homepage for Arcane Ops, built using WordPress.">
                   </div>
                   <!-- Card description -->
-                  <div class="col-12 col-xl-6">
+                  <div class="p-card-caption">
                     <!-- <div class="p-card-links">
                       <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
@@ -268,14 +270,14 @@
               <!-- End individual portfolio card -->
               <!-- Start individual portfolio card -->
               <div class="carousel-item">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center p-card-container">
                   <!-- Card image -->
-                  <div class="col-12 col-xl-6">
-                    <img src="img/corporate-law-homepage.jpg" class="img-fluid rounded-3-start"
+                  <div class="p-card-img-div">
+                    <img src="img/corporate-law-homepage.jpg" class="img-fluid"
                       alt="Homepage for corporate law website, built using Webflow.">
                   </div>
                   <!-- Card description -->
-                  <div class="col-12 col-xl-6">
+                  <div class="p-card-caption">
                     <!-- <div class="p-card-links">
                       <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
@@ -303,14 +305,14 @@
               <!-- End individual portfolio card -->
               <!-- Start individual portfolio card -->
               <div class="carousel-item">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center p-card-container">
                   <!-- Card image -->
-                  <div class="col-12 col-xl-6">
-                    <img src="img/sheriff-wood-homepage.jpg" class="img-fluid rounded-3-start"
+                  <div class="p-card-img-div">
+                    <img src="img/sheriff-wood-homepage.jpg" class="img-fluid"
                       alt="Homepage for sheriff election campaign, built using Bootstrap, HTML, CSS, and JavaScript.">
                   </div>
                   <!-- Card description -->
-                  <div class="col-12 col-xl-6">
+                  <div class="p-card-caption">
                     <!-- <div class="p-card-links">
                       <a href="https://exploreeasternutah.com/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">

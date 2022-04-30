@@ -16,6 +16,7 @@
 
 body {
   position: relative;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 h1,
@@ -99,12 +100,23 @@ section {
   }
 }
 
-.p-card-img {
-  max-width: 120%;
-  height: 100%;
-  object-fit: cover;
+.p-card-container {
+  position: relative;
+}
+
+.p-card-img-div {
   overflow: hidden;
-  position: 50% 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.p-card-caption {
+  width: 100%;
+  background-color: $n-light-2;
 }
 
 .p-card-links {
@@ -127,12 +139,31 @@ section {
   }
 }
 
-
 .p-card-description {
   padding: 3rem
 }
 
+// Portfolio card large screen settings
 @include media-breakpoint-up(xl) {
+  .p-card-container {
+    position: relative;
+  }
+
+  .p-card-img-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    aspect-ratio: auto;
+  }
+
+  .p-card-caption {
+    width: 50%;
+    margin-left: 50%;
+  }
+
   .p-card-links {
     position: absolute;
     top: 0.5rem;
