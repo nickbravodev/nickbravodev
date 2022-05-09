@@ -88,11 +88,6 @@
   padding-left: 1rem !important;
 }
 
-.px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
-}
-
 .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
@@ -185,6 +180,11 @@
 
   .d-lg-none {
     display: none !important;
+  }
+
+  .px-lg-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
 }
 :root {
@@ -2036,13 +2036,6 @@ textarea.form-control {
   position: sticky;
   top: 0;
   z-index: 1020;
-}
-@media (min-width: 992px) {
-  .sticky-lg-top {
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-  }
 }
 
 .visually-hidden {
