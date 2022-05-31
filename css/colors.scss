@@ -3,18 +3,26 @@ $n-dark-1: #272b2a !default;
 $n-dark-2: #607466 !default;
 $n-light-1: #edefce !default;
 $n-light-2: #dde0bd !default;
+$danger: #ba3f1d !default;
+
+// NickBravo.dev alternate color scheme
+// $n-dark-1: #111 !default;
+// $n-dark-2: #555 !default;
+// $n-light-1: #e8e8e8 !default;
+// $n-light-2: #f6f6f6 !default;
+// $danger: #ba3f1d !default;
 
 // scss-docs-start theme-color-variables
 // $primary: $blue !default;
 // $secondary: $gray-600 !default;
-$success: $n-dark-2 !default;
+$success: $n-dark-2  !default;
 // $info: $cyan !default;
 // $warning: $yellow !default;
-$danger: #ba3f1d !default;
-$light: $n-light-1 !default;
-$dark: $n-dark-1 !default;
-$light-2: $n-light-2 !default;
-$dark-2: $n-dark-2 !default;
+
+$light: $n-light-1  !default;
+$dark: $n-dark-1  !default;
+$light-2: $n-light-2  !default;
+$dark-2: $n-dark-2  !default;
 // scss-docs-end theme-color-variables
 
 // Body background color
