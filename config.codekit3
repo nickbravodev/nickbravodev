@@ -334,6 +334,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/profile-photo-gray.jpg" : {
+      "ft" : 16384,
+      "iS" : 35642,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/img\/profile-photo-gray.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/profile-photo.jpg" : {
       "ft" : 16384,
       "iS" : 47976,
