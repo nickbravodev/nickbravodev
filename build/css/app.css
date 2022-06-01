@@ -1270,35 +1270,45 @@ textarea.form-control {
   display: block;
 }
 
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
 .nav-link {
   display: block;
+  position: relative;
+  outline: none;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   font-weight: 700;
   color: rgba(221, 224, 189, 0.75);
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
-@media (prefers-reduced-motion: reduce) {
-  .nav-link {
-    transition: none;
-  }
+.nav-link::after {
+  content: "";
+  opacity: 1;
+  background: #edefce;
+  position: absolute;
+  display: block;
+  width: 0%;
+  height: 0.15rem;
+  margin-top: 2rem;
+  z-index: -1;
+  top: 0;
+  transition: width 150ms ease-out;
 }
 .nav-link:hover, .nav-link:focus {
   color: #edefce;
+}
+.nav-link:hover::after, .nav-link:focus::after {
+  width: calc(100% - 1rem);
 }
 .nav-link.disabled {
   color: rgba(221, 224, 189, 0.35);
   pointer-events: none;
   cursor: default;
+}
+
+@media (min-width: 1200px) {
+  .nav-link::after {
+    margin-top: 1.7rem;
+  }
 }
 
 .navbar {
@@ -2315,7 +2325,7 @@ section {
     transition: none;
   }
 }
-.cta:hover {
+.cta:hover, .cta:focus {
   color: #272b2a;
   background-color: #dde0bd;
 }

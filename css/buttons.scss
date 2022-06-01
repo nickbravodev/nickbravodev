@@ -15,7 +15,8 @@
   padding: .5rem 2rem;
   @include transition($btn-transition);
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $n-dark-1;
     background-color: $n-light-2;
     text-decoration: if($link-hover-decoration==underline, none, null);
