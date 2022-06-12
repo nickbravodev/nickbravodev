@@ -18,7 +18,7 @@
   &:hover,
   &:focus {
     color: $n-dark-1;
-    background-color: $n-light-2;
+    background-color: $n-light-1;
     text-decoration: if($link-hover-decoration==underline, none, null);
   }
 

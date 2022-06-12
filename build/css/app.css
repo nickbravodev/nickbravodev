@@ -2187,7 +2187,7 @@ section {
   height: 3rem;
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 1rem;
   z-index: 10000;
 }
@@ -2327,7 +2327,7 @@ section {
 }
 .cta:hover, .cta:focus {
   color: #272b2a;
-  background-color: #dde0bd;
+  background-color: #edefce;
 }
  .cta:focus {
   outline: 0;
