@@ -26,7 +26,7 @@
     "\/css\/app.css" : {
       "aP" : 1,
       "bl" : 0,
-      "ci" : 0,
+      "ci" : 1,
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
@@ -1764,7 +1764,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "http:\/\/localhost:8888",
+    "externalServerAddress" : "http:\/\/localhost:3000",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
@@ -1787,7 +1787,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "combineImports" : 0,
+      "combineImports" : 1,
       "cssoStyle" : 0,
       "purgeCSSStyle" : 1,
       "shouldRunAutoprefixer" : 1,
