@@ -481,7 +481,7 @@
       <footer class="px-3 py-5">
         <div class="container">
           <!-- Copyright -->
-          <p class="text-center copyright mb-4">Copyright © 2022 NickBravo. All rights reserved.</p>
+          <p class="text-center copyright mb-4">Copyright &copy; <span id="copyright"></span> NickBravo.dev. All rights resrved.</p>
           <!-- Social links -->
           <div class="d-flex justify-content-center">
             <!-- Github -->
@@ -675,6 +675,11 @@
         </div>
       </div>
     </main>
+    <script>
+      document.querySelector('#copyright').textContent = new Date()
+        .getFullYear()
+        .toString();
+    </script>
   </body>
 
 </html>
