@@ -139,49 +139,38 @@
   visibility: visible !important;
 }
 @media (min-width: 768px) {
-
   .d-md-block {
     display: block !important;
   }
-
   .order-md-1 {
     order: 1 !important;
   }
-
   .order-md-2 {
     order: 2 !important;
   }
-
   .order-md-3 {
     order: 3 !important;
   }
-
   .mt-md-0 {
     margin-top: 0 !important;
   }
-
   .ms-md-auto {
     margin-left: auto !important;
   }
-
   .pe-md-5 {
     padding-right: 3rem !important;
   }
-
   .ps-md-5 {
     padding-left: 3rem !important;
   }
 }
 @media (min-width: 992px) {
-
   .d-lg-block {
     display: block !important;
   }
-
   .d-lg-none {
     display: none !important;
   }
-
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
@@ -906,49 +895,40 @@ textarea {
   width: 100%;
 }
 @media (min-width: 768px) {
-
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
-
   .col-md-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
   }
-
   .col-md-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
   }
-
   .col-md-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
 }
 @media (min-width: 992px) {
-
   .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
   }
-
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
-
   .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -1864,7 +1844,7 @@ textarea.form-control {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
-.carousel-control-next {
+  .carousel-control-next {
     transition: none;
   }
 }
@@ -2206,7 +2186,6 @@ section {
   .p-card-container {
     position: relative;
   }
-
   .p-card-img-div {
     position: absolute;
     top: 0;
@@ -2216,22 +2195,18 @@ section {
     width: 50%;
     aspect-ratio: auto;
   }
-
   .p-card-caption {
     width: 50%;
     margin-left: 50%;
   }
-
   .p-card-links {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
   }
-
   .p-card-description {
     padding-right: 8rem;
   }
-
   .p-card-links {
     padding: 0 1rem;
   }
