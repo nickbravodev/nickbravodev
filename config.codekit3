@@ -252,10 +252,10 @@
     "\/img\/astropost-icon-red.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/img\/astropost-icon-red.svg",
-      "oF" : 0,
-      "opt" : 0,
+      "oF" : 1,
+      "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
     },
@@ -303,10 +303,23 @@
       "iS" : 1132443,
       "oA" : 0,
       "oAP" : "\/build\/img\/Fortify-24x7-ad.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/nb-new.jpg" : {
+      "ft" : 16384,
+      "iS" : 207279,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/img\/nb-new.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -316,7 +329,7 @@
       "iS" : 34300,
       "oA" : 0,
       "oAP" : "\/build\/img\/open-graph.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
@@ -327,10 +340,10 @@
     "\/img\/private-computer.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/img\/private-computer.svg",
-      "oF" : 0,
-      "opt" : 0,
+      "oF" : 1,
+      "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
     },
@@ -378,7 +391,7 @@
       "iS" : 3185187,
       "oA" : 0,
       "oAP" : "\/build\/img\/unredacted-magazine-002.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
@@ -511,7 +524,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 712639102.93031299
+    "lastBuiltDate" : 714284405.47540295
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1841,7 +1854,7 @@
       "autoOutputPathStyle" : 0,
       "outputFormat" : 0,
       "quality" : 100,
-      "webpOptimizationPresetUUID" : "lpckwebp-none",
+      "webpOptimizationPresetUUID" : "lpckwebp-default",
       "webpRGBQuality" : 75
     },
     "languageDefaultsJS" : {
