@@ -223,6 +223,16 @@
       "oAP" : "\/build\/favicon.ico",
       "oF" : 0
     },
+    "\/favicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/favicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/arcane-ops-episode-page.jpg" : {
       "ft" : 16384,
       "iS" : 159449,
