@@ -2084,7 +2084,9 @@ h3, .h3 {
 }
 
 nav {
-  background-color: rgba(39, 43, 42, 0.85);
+  background-color: rgba(39, 43, 42, 0.7);
+  backdrop-filter: blur(0.7rem);
+  -webkit-backdrop-filter: blur(0.7rem);
 }
 
 header,
