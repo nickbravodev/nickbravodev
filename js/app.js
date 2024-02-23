@@ -1,10 +1,12 @@
+"use strict";
+
 // Form validation
-(function() {
-  'use strict';
-  const forms = document.querySelectorAll('.needs-validation');
-  Array.from(forms)
-    .forEach(function(form) {
-      form.addEventListener('submit', function(event) {
+(function () {
+  const forms = document.querySelectorAll(".needs-validation");
+  Array.from(forms).forEach(function (form) {
+    form.addEventListener(
+      "submit",
+      function (event) {
         if (!form.checkValidity()) {
           event.preventDefault();
           event.stopPropagation();
@@ -12,18 +14,20 @@
           event.preventDefault();
           form.submit();
         }
-        form.classList.add('was-validated');
-      }, false);
-    });
+        form.classList.add("was-validated");
+      },
+      false
+    );
+  });
 })();
 
 // Contact form success popup
-$(document).ready(function() {
-  if (window.location.href.indexOf('#success') != -1) {
-    $('#success').modal('show');
+$(document).ready(function () {
+  if (window.location.href.indexOf("#success") != -1) {
+    $("#success").modal("show");
     // Dismiss modal after 3 seconds if no input
-    setTimeout(function() {
-      $("#success").modal('hide');
+    setTimeout(function () {
+      $("#success").modal("hide");
     }, 3000);
   }
 });
